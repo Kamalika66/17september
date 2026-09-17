@@ -1,0 +1,12 @@
+{
+  "name": "digital-platform-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Team project starter for the IHM course Teknik för digitala plattformar",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vårt digitala projekt</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">Digital Platform Project</p>
+      <h1>Här börjar ert projekt</h1>
+      <p class="intro">
+        Byt ut den här sidan mot något ni själva vill bygga. Börja litet,
+        gör en sak fungerande och undersök vad som faktiskt händer.
+      </p>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="first-step-title">
+        <h2 id="first-step-title">Första steget</h2>
+        <p>
+          Bestäm en meningsfull handling som en användare ska kunna göra.
+          Ändra sedan HTML, CSS och JavaScript så att sidan blir er.
+        </p>
+
+        <button id="try-button" type="button">Testa en handling</button>
+        <p id="result" class="result" aria-live="polite">Inget har hänt ännu.</p>
+      </section>
+
+      <section class="card secondary" aria-labelledby="server-title">
+        <h2 id="server-title">Lokal miljö</h2>
+        <p>
+          Den här sidan körs från er egen Node-server på localhost. Öppna
+          DevTools och undersök vad browsern faktiskt gör.
+        </p>
+        <p id="server-status" class="status">Kontrollerar servern…</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Build anything. Understand what happens.</p>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
